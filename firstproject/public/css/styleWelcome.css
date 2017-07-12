@@ -1,0 +1,367 @@
+body {
+    background-color: white;
+}
+.Container{
+    width: 90%;
+    height:2700px;
+    background-color:white;
+    margin:auto;
+}
+.Header{
+    width: 100%;
+    height:500px;
+    background-color: #0d3625;
+    background-size: cover;
+    background:no-repeat;
+    margin: auto;
+    margin-top:-10px;
+}
+.Logo{
+    margin-left: 80px;
+    margin-top: -470px;
+}
+.Logo span{
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    padding-right: 10px;
+    position: relative;
+    top: 10%;
+    margin-left:-5px;
+    border-radius: 5px;
+    border:inset 1px;
+    border-right: none;
+    margin-top: 0px;
+}
+
+
+.Menu{
+    float: right;
+    width:60%;
+    height: 40px;
+    background-color: #0d3625;
+    margin-top:-60px;
+}
+
+.Menu ul{
+    list-style: none;
+    margin:0px;
+
+}
+.Menu ul li{
+    float: left;
+    width:25%;
+    height: 5px;
+    line-height:20px;
+
+
+
+}
+.Menu ul li a{
+    float:left;
+    text-align: center;
+    opacity:.8;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: auto;
+    color: white;
+}
+.Text{
+    width:55%;
+    height:100px;
+    background-color:rgba(0,0,0,0.54);
+    position:absolute;
+    top:250px;
+    margin-left:150px;
+    left:10%;
+    text-align:center;
+}
+.Text p{
+    color:white;
+    text-indent:20px;
+}
+.ButtonHead{
+    position:absolute;
+    top:150px;
+    left:40%;
+    background-color:#DFD10F;
+    padding:10px;
+    border:none;
+    font-weight:bold;
+
+}
+.ButtonHead:hover{
+    opacity:0.7;
+    color:white;
+}
+
+.Body{
+    width:95%;
+    height:1800px;
+    margin: auto;
+    background-color:white;
+
+}
+.Body h1{
+    width: 100%;
+    font-size: 20px;
+    color:DarkOrange;
+    text-align: center;
+
+}
+.Body span{
+    font-size: 20px;
+    color: yellow;
+}
+/*.TextBody{*/
+    /*width: 100%;*/
+    /*height:200px;*/
+    /*background-color: #2aabd2;*/
+
+/*}*/
+.Image{
+    position: relative;
+}
+.Image img{
+    width:100%;
+    height:300px;
+    background-color: #0d3625;
+    background-size: cover;
+    background:no-repeat;
+    margin: auto;
+}
+
+.LogoImage{
+    position: absolute;
+    margin-left: 20px;
+    top:20px;
+    /*margin-top: -470px;*/
+}
+.LogoImage span{
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    padding-right: 10px;
+    position: relative;
+    top: 10%;
+    margin-left:-5px;
+    border-radius: 5px;
+    border:inset 1px;
+    border-right: none;
+    margin-top: 0px;
+}
+
+.IntermodalService{
+    float: left;
+    width: 60%;
+    height:250px;
+    background-color:white;
+
+}
+.IntermodalService h2{
+   margin-right:510px;
+    color: blue;
+    font-size:20px;
+}
+.IntermodalService p{
+    font-size:15px;
+    color: black;
+    text-align: justify;
+    opacity:.8;
+}
+
+
+.IntermodalImage{
+    float: right;
+    width:40%;
+    height:250px;
+
+}
+ .IntermodalService hr{
+    width: 10%;
+    margin-top: 10%;
+    margin-right: 100px;
+
+}
+.FreightForwarding{
+    float: right;
+    width: 60%;
+    height:250px;
+
+}
+.FreightForwarding h2{
+    font-size: 20px;
+    margin-right: 510px;
+    margin-top: -15px;
+    color: blue;
+}
+.FreightForwarding p{
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+}
+.FrieghtImage{
+    float: left;
+    width: 40%;
+    height:250px;
+
+}
+
+.FreightForwarding hr{
+    width: 10%;
+    margin-top: 10%;
+    margin-left:50px;
+    background-color: darkorange;
+
+
+}
+.CustomHouseBrokerage{
+    float: left;
+    width: 60%;
+    height:250px;
+}
+.CustomHouseBrokerage h2{
+    color: blue;
+    margin-right: 460px;
+    font-size: 20px;
+
+}
+.CustomHouseBrokerage p{
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+}
+
+.CustomImage{
+    float: right;
+    width: 40%;
+    height:250px;
+
+}
+.CustomHouseBrokerage hr{
+    width: 10%;
+    margin-top: 10%;
+    margin-right: 100px;
+    background-color: darkorange;
+    color: yellow;
+
+}
+.WarehousingDistibution{
+    float: right;
+    width: 60%;
+    height:250px;
+
+}
+.WarehousingDistibution h2{
+    font-size: 20px;
+    margin-right:430px;
+    color: blue;
+}
+.WarehousingDistibution p{
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+.WarehousingImage{
+    float: left;
+    width: 40%;
+    height:250px;
+
+}
+
+
+.WarehousingDistibution hr{
+    width: 10%;
+    margin-top:10%;
+    background-color: darkorange;
+    margin-left:50px;
+    color: yellow;
+
+}
+.ImagenearFooter{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background:no-repeat;
+    margin: auto;
+
+}
+.TextnearFooter{
+    width:60%;
+    height:80px;
+    position:absolute;
+    top:2130px;
+    margin-left:100px;
+    left:10%;
+    text-align:center;
+}
+.TextnearFooter p{
+    color:white;
+    font-size: 15px;
+    text-indent:10px;
+}
+.ButtonnearFooter{
+    position:absolute;
+    top:150px;
+    left:40%;
+    background-color:#DFD10F;
+    padding:10px;
+    top: 100px;
+    border:none;
+    font-weight:bold;
+
+}
+.ButtonnearFooter:hover{
+    opacity:0.7;
+    color:white;
+}
+
+.Footer{
+    width: 100%;
+    height:300px;
+    background-color:white;
+    text-decoration: none;
+}
+.Footer h1{
+    font-size: 15px;
+    margin-top:50px;
+    color:darkcyan;
+    text-align: center;
+}
+.Footer a  {
+    text-decoration: none;
+    float: left;
+    width:80px;
+    height:50px;
+    color:blue;
+    line-height:120px;
+    font-size: 30px;
+}
+.FooterItem {
+    width: 100%;
+    height: 150px;
+    margin-top: 150px;
+    background-color:gold;
+
+}
+.FooterItem a{
+    color: black;
+    width:150px;
+    font-size: 15px;
+    height:20px;
+    line-height:100px;
+
+}
+.FooterItem p{
+    float: left;
+    width: 500px;
+    height: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 90px;
+    margin-left:300px;
+
+}
