@@ -1,8 +1,12 @@
 <html>
 <head>
-    <title>Slash-Task-002</title>
-    <script type="text/javascript" src="{{asset('bootstrap-3.3.7-dist/js/bootstrap.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('bootstrap-3.3.7-dist/js/jquery-3.2.1.js')}}"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=no">
+
+
+    <title itemprop='name'>YSL TheSlash</title>
+    <link href="http://yellowlg.demo.flexitech.io/img/favicon.ico" type="image/x-icon" rel="shortcut icon" />
     <link href="{{asset('bootstrap-3.3.7-dist/css/bootstrap.min.css')}}" type="text/css" rel="stylesheet">
     <link href="{{asset('../css\styleWelcome.css')}}" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,30 +14,34 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{asset('bootstrap-3.3.7-dist/js/bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('bootstrap-3.3.7-dist/js/jquery-3.2.1.js')}}"></script>
+
+
 
 </head>
 <body>
       <div class="Header">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
-             <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+             <ol class="carousel-indicators" >
+                <li data-target="#myCarousel" data-slide-to="0" class="active" style="z-index: 10;width:5%;height: 2px"></li>
+                <li data-target="#myCarousel" data-slide-to="1" style="z-index: 11;width: 5%;height: 2px"></li>
+                <li data-target="#myCarousel" data-slide-to="2" style="z-index: 1;width: 5%;height: 2px"></li>
              </ol>
 
                   <!-- Wrapper for slides -->
               <div class="carousel-inner">
                   <div class="item active">
-                      <img src="image/ima1.png"style="width:100%;height: 500px;">
+                      <img src="image/new-slide-1.jpg"style="width:100%;height: 500px;">
                   </div>
 
                   <div class="item">
-                      <img src="image/ima.png" style="width:100%; height: 500px">
+                      <img src="image/y-slide-2.JPG" style="width:100%; height: 500px">
                   </div>
 
                   <div class="item">
-                      <img src="image/404.png"  style="width:100%;height: 500px;">
+                      <img src="image/new-slide-3.jpg"  style="width:100%;height: 500px;">
                   </div>
               </div>
                   <!-- Left and right controls -->
@@ -62,8 +70,8 @@
                       <ul class="nav navbar-nav">
                           <li><a href="#">HOME</a> </li>
                           <li><a href="#">About US</a></li>
-                          <li><a href="#">Products & Service</a></li>
-                          <li><a href="#">Quote Request</a></li>
+                          <li><a href="#product&service">Products & Service</a></li>
+                          <li><a href="#Quote Request">Quote Request</a></li>
                           <li><a href="#">Contact US</a></li>
                       </ul>
                   </div>
@@ -113,7 +121,7 @@
                   </div>
               </div>
           </div>
-          <div class="feature">
+          <div class="feature"  id="product&service">
               <h1><p>PRODUCT & SERVICE</p><hr width="15%" style=" border: 1px solid darkorange;"></h1>
               <div class="container">
                   <div class="row">
@@ -130,12 +138,12 @@
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                           <div class="IntermodalImage">
-                              <img src="../image/404.png" width="95%" height="160px" style="margin-left: 20px; margin-top:15px;">
+                              <img src="../image/intermodal.jpg" class="img-responsive" width="95%" height="200px" style="margin-left: 20px; margin-top:15px;">
                           </div>
                       </div>
                   </div>
                   <div class="row">
-                      <div class="col-lg-8 col-md-push-4 col-sm-12 col-xs-12">
+                      <div class="col-md-8 col-md-push-4 col-sm-12 col-xs-12">
                           <div class="FreightForwarding">
                               <p><h2> Freight Forwarding</h2></p>
                               <p>By Ocean or Air, FCL or LCL,we believe that we are the one for you.We focus to offer the fast
@@ -148,9 +156,9 @@
                               </p><hr>
                           </div>
                       </div>
-                      <div class="col-lg-4 col-md-pull-8 col-sm-12 col-xs-12">
+                      <div class="col-md-4 col-md-pull-8 col-sm-12 col-xs-12">
                           <div class="FrieghtImage">
-                              <img src="../image/404.png" width="95%" height="160px" style="margin-left: 20px; margin-top:15px;" >
+                              <img src="../image/frieght_forward.jpg" class="img-responsive" width="95%" height="200px" style="margin-left: 20px; margin-top:15px;" >
                           </div>
                       </div>
                   </div>
@@ -169,12 +177,12 @@
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                           <div class="CustomImage">
-                              <img src="../image/404.png" width="95%" height="160px" style="margin-left: 20px; margin-top: 15px;">
+                              <img src="../image/custom-brokerage.jpg" class="img-responsive" width="95%" height="200px" style="margin-left: 20px; margin-top: 15px;">
                           </div>
                       </div>
                   </div>
                   <div class="row">
-                      <div class="col-lg-8 col-md-push-4 col-sm-12 col-xs-12">
+                      <div class="col-md-8 col-md-push-4 col-sm-12 col-xs-12">
                           <div class="WarehousingDistibution">
                               <p><h2>Warehousing and Distibution</h2></p>
                               <p>Storage is crucially important for your cargos as it is the starting before
@@ -186,9 +194,9 @@
                               </p><hr/>
                           </div>
                       </div>
-                      <div class="col-lg-4 col-md-pull-8 col-sm-12 col-xs-12">
+                      <div class="col-md-4 col-md-pull-8 col-sm-12 col-xs-12">
                           <div class="WarehousingImage">
-                              <img src="../image/404.png" width="95%" height="160px" style="margin-left: 20px; margin-top:15px;">
+                              <img src="../image/new-warehousing.jpg" class="img-responsive" width="95%" height="200px" style="margin-left: 20px; margin-top:15px;">
                           </div>
                       </div>
                   </div>
@@ -197,13 +205,17 @@
           <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <div class="ImagenearFooter">
-                      <img src="../image/wharehouse.jpg" width="100%" height="350px"  style="margin-top:15px;">
-                      <div class="TextnearFooter">
-                          <p>YELLOW SEA LOGISTICS offers the supports for the foods transportation both
-                              <br>locally and globally such as Rail Freight, Intermodal, Air Freight, Ocean Freight,
-                              <br>Custom Broker and Warehousing /Distribution</p>
-                          <button class="ButtonnearFooter">QUOTE REQUEST</button>
-                      </div>
+                      {{--<img src="../image/wharehouse.jpg" width="100%" height="350px"  style="margin-top:15px;">--}}
+
+                      <div class="bottoom_img"id="Quote Request">
+                          <div class="Contain">
+                              <div class="TextnearFooter" >
+                                  <p>YELLOW SEA LOGISTICS offers the supports for the foods transportation both
+                                      <br>locally and globally such as Rail Freight, Intermodal, Air Freight, Ocean Freight,
+                                      <br>Custom Broker and Warehousing /Distribution</p>
+                                  <button class="ButtonnearFooter">QUOTE REQUEST</button>
+                              </div>
+                          </div>
                   </div>
               </div>
           </div>
@@ -230,7 +242,8 @@
                             <li><a href="#">Contact US</a></li>
                           </ul>
                       </div>
-                      <hr>
+
+
                       <div class="copyRight">
                           <p>&copy; 2017 Yellow Sea Logistic. All right reserved.Designed by <strong>Flexitech</strong></p>
                       </div>
