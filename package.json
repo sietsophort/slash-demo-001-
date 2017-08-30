@@ -13,9 +13,34 @@
     "axios": "^0.16.2",
     "bootstrap-sass": "^3.3.7",
     "cross-env": "^5.0.1",
+    "gulp-util": "^3.0.8",
     "jquery": "^3.1.1",
     "laravel-mix": "^1.0",
     "lodash": "^4.17.4",
     "vue": "^2.1.10"
-  }
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "laravel": "0.0.1",
+    "mix": "0.0.1",
+    "rupture": "^0.6.2",
+    "sass": "^1.0.0-beta.2"
+  },
+  "name": "firstproject",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sietsophort/slash-demo-001-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sietsophort/slash-demo-001-/issues"
+  },
+  "homepage": "https://github.com/sietsophort/slash-demo-001-#readme",
+  "description": ""
 }

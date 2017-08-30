@@ -1,8 +1,6 @@
 body {
     background-color: white;
     font-family:'Roboto Condensed',sans-serif;
-    /*overflow-x: hidden;*/
-    /*cursor: all-scroll;*/
 }
 
 html{
@@ -15,25 +13,9 @@ html{
     margin: auto;
     margin-top:0;
     position: relative;
-    /*display: flex;*/
     text-align: center;
 
 }
-
-nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 99;
-
-}
-.navbar{
-    top:0;
-    background-color: white;
-    width: 100%;
-}
-
 .main_logo{
     border-style: none;
     height: 46px;
@@ -69,8 +51,23 @@ nav{
     border-color: transparent #ffcc00 #ffcc00 transparent;
 }
 
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+
+}
+.navbar{
+    top:0;
+    background-color: white;
+    width: 100%;
+}
+
+
 .navbar ul li a{
-    color: white;
+    /*color: white;*/
     display: inline-table;
     text-decoration: none;
 
@@ -200,7 +197,6 @@ nav{
 
 .Body{
     width:100%;
-    /*height:1500px;*/
     margin: auto;
     background-color:white;
 
@@ -264,9 +260,7 @@ nav{
 
 }
 .FreightForwarding h3{
-    /*margin-right:500px;*/
     color: blue;
-    /*font-size:20px;*/
 }
 
 .FreightForwarding p{
@@ -280,8 +274,6 @@ nav{
     width: 5%;
     margin-top:5%;
     text-align: center;
-    /*right:200px;*/
-    /*margin-left: 180px;*/
     border: 1px solid darkorange;
 
 }
@@ -491,19 +483,9 @@ margin-top:20px;
     font-size: 1.5em;
 }
 
-
-.news_event{
-    width:100%;
-    height:200px;
-    margin: 30px;
-
-}
 .text_news{
     font-size: 18px;
-    padding-right:600px;
     padding-top: 10px;
-
-    /*margin: 40px;*/
 }
 
 .quotes-form .cargo .sub-input .input-inline {

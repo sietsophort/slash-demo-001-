@@ -15,7 +15,6 @@
             });
         }
     </script>
-    {{--src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTG6_CDHDuvJfmFg90wK1fTR2KxwnS5QE&callback=initMap">--}}
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTG6_CDHDuvJfmFg90wK1fTR2KxwnS5QE&callback=initMap"></script>
 
     <div class="contactUS">

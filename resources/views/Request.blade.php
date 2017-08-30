@@ -1,14 +1,6 @@
 @extends('welcome')
 @section('content')
 
-    {{--<div class="Header_image">--}}
-        {{--<img src="image/y-about-2.jpg"style="width:100%;">--}}
-        {{--<div class="ButtonNews">--}}
-            {{--<h4 class="yellow">News & Events</h4>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-
-
     <div class="img_news">
                 <img src="image/container-sea-port.jpg"style="width:100%;height: 600px;">
 
@@ -32,7 +24,6 @@
 
 
     <div class="container-fluid" style="max-width: 1400px">
-        <div class="jumbotron">
         <div class="container background-gray" style="margin-bottom: 50px">
             <div class="container">
                 <form action="" >
@@ -224,6 +215,5 @@
                 </form>
             </div>
         </div>
-    </div>
     </div>
 @endsection
